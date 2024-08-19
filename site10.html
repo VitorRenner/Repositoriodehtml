@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Flexbox</title>
+    <style>
+        .container-flex {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .caixa {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        .caixa1 { background-color: rgb(160, 198, 211); }
+        .caixa2 { background-color: rgb(131, 220, 131); }
+        .caixa3 { background-color: rgb(222, 119, 119); }
+    </style>
+</head>
+<body>
+    <div class="container-flex">
+        <div class="caixa caixa1">Caixa 1 of layout</div>
+        <div class="caixa caixa2">Caixa 2 of layout</div>
+        <div class="caixa caixa3">Caixa 3 of layout</div>
+    </div>
+</body>
+</html>

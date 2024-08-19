@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout com Flexbox 2</title>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .flex-item {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            color: rgb(235, 229, 229);
+        }
+        .flex-item:nth-child(1) {
+            background-color: rgb(226, 13, 13);
+        }
+
+        .flex-item:nth-child(2) {
+            background-color: rgb(8, 157, 8);
+        }
+
+        .flex-item:nth-child(3) {
+            background-color: rgb(4, 4, 217);
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item">Caixa 1 of layout</div>
+        <div class="flex-item">Caixa 2 of layout</div>
+        <div class="flex-item">Caixa 3 of layout</div>
+    </div>
+</body>
+</html>
